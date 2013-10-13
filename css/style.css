@@ -2,7 +2,14 @@ body {
     background: #75b2dd;
 }
 
+.vcard {
+  float: left;
+}
+
 .row {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top 50px;
     background: #fff;
 }
 

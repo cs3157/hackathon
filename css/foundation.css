@@ -935,8 +935,8 @@ th.hide-for-touch {
       clear: both; }
 
   .large-block-grid-3 > li {
-    width: 33.33333%;
-    padding: 0 0.625em 1.25em; }
+    width: 31.333333%;
+    padding: 10px 10px 10px 10px; }
     .large-block-grid-3 > li:nth-of-type(n) {
       clear: none; }
     .large-block-grid-3 > li:nth-of-type(3n+1) {

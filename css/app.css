@@ -69,6 +69,11 @@ body > section:not([class]) + section:not([class]) {
     margin: 0;
 }
 
+.footer a {
+    color: white !important;
+    border-bottom: none;
+}
+
 .image-list {
     margin: 0;
 }

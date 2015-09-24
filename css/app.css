@@ -1,0 +1,142 @@
+    /*background: #75b2dd;*/
+
+/* Base Styles */
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+    color: #222;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 2.75rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+h4 {
+    margin-bottom: 1.5rem;
+}
+h5 {
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+body > section {
+    padding: 5rem 0;
+}
+
+body > section:not([class]) + section:not([class]) {
+    padding-top: 2.5rem;
+}
+
+.gray {
+    background-color: #f9f9f9
+}
+
+.blue {
+    background-color: #75b2dd;
+}
+.blue * {
+    color: white !important;
+}
+.blue a {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #222;
+    text-align: center;
+}
+.footer p {
+    color: white !important;
+    margin: 0;
+}
+
+.image-list {
+    margin: 0;
+}
+.image-list li{
+    padding:0;
+    margin:0;
+}
+
+/* Navbar */
+nav {
+    background-color: #222 !important;
+}
+
+.title-area {
+    background-color: #222 !important;
+}
+
+nav ul li:not(.active) a {
+    background-color: #222 !important;
+    cursor: auto;
+}
+
+nav ul li:not(.active) a[href]:hover {
+    background-color: #333 !important;
+}
+
+.logos {
+    margin: 0 -2rem;
+}
+
+.logos img {
+    padding: 2rem;
+    vertical-align: middle;
+}
+
+/* Hero */
+
+.hero {
+    background-image: url(../img/2015_spring_pano.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+    position: relative;
+}
+
+.hero .scrim {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.3) 65%, rgba(0, 0, 0, 0.5) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.01)), color-stop(65%, rgba(0, 0, 0, 0.3)), color-stop(100%, rgba(0, 0, 0, 0.5)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.3) 65%, rgba(0, 0, 0, 0.5) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.3) 65%, rgba(0, 0, 0, 0.5) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.3) 65%, rgba(0, 0, 0, 0.5) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.3) 65%, rgba(0, 0, 0, 0.5) 100%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
+
+.hero .row, .hero .columns {
+    height: 100%;
+}
+
+.hero .hero-content {
+    color: white;
+    position: absolute;
+    bottom: 3rem;
+}
+
+.hero .hero-content * {
+    color: white;
+}

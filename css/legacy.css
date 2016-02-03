@@ -1,0 +1,41 @@
+
+.hero-old {
+    background-image: url(../img/2015_fall_pano.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+    position: relative;
+}
+
+.hero-old .scrim {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.3) 65%, rgba(0, 0, 0, 0.75) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.01)), color-stop(65%, rgba(0, 0, 0, 0.3)), color-stop(100%, rgba(0, 0, 0, 0.75)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.3) 65%, rgba(0, 0, 0, 0.75) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.3) 65%, rgba(0, 0, 0, 0.75) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.3) 65%, rgba(0, 0, 0, 0.75) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.3) 65%, rgba(0, 0, 0, 0.75) 100%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
+
+.hero-old .row, .hero-old .columns {
+    height: 100%;
+}
+
+.hero-old .hero-content {
+    color: white;
+    position: absolute;
+    bottom: 3rem;
+    width: 100%;
+}
+
+.hero-old .hero-content * {
+    color: white;
+    margin: 0;
+}
+

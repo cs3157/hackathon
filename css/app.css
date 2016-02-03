@@ -112,7 +112,7 @@ nav ul li:not(.active) a[href]:hover {
 /* Hero */
 
 .hero {
-    background-image: url(../img/2015_fall_pano.jpg);
+    background-image: url(../img/2015_fall_photos/large_4.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

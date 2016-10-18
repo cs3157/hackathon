@@ -112,8 +112,8 @@ nav ul li:not(.active) a[href]:hover {
 /* Hero */
 
 .hero {
-    background-image: url('../img/2016_fall_photos/hackathon 2016-9 - 63.jpg');
-    background-position: center center;
+    background-image: url('../img/2016_fall_photos/hackathon 2016-9 - 75.jpg');
+    background-position: center -350px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 30rem;
